@@ -1,0 +1,73 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: burlywood;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input {
+  display: none;
+}
+
+label {
+  display: block;
+  background-color: #3498db;
+  color: #d0e646;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+label:hover {
+  background-color: #2980b9;
+}
+
+img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  color: #27ae60;
+}
+
+button {
+  background-color: #27ae60;
+  color: #27b9b5;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #219d48;
+}
